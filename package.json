@@ -1,0 +1,24 @@
+{
+  "name": "mocha-test",
+  "version": "1.0.0",
+  "description": "unittest",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './specs/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liana13555/mocha-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liana13555/mocha-test/issues"
+  },
+  "homepage": "https://github.com/liana13555/mocha-test#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "sinon": "^12.0.1"
+  }
+}
